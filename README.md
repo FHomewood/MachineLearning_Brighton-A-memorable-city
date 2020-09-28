@@ -39,7 +39,7 @@ boundary drawn linearly between them. The centre of each
 cluster is then moved to the mean location of the data contained
 within the cluster. This process is iterated until the
 centres converge to the optimum location in feature space.
-The MLP classifier used here has it’s prediction power
+The MLP classifier used here has itâ€™s prediction power
 rooted in linear algebra where each layer acts as a matrix
 transformation on the layer before it, this reduces a trained
 MLP model down to a specific linear equation, making it
@@ -47,7 +47,7 @@ trivial to implement once trained. To train an MLP there
 are two distinct phases, the forward pass and the backward
 pass[3]. In the forward pass we supply the MLP with a sample
 or a batch of the training data and perform the linear algebra
-to find out the model’s predictions for the data. Subsequently,
+to find out the modelâ€™s predictions for the data. Subsequently,
 the predictions are compared to the target label and
 the difference between the two values is quantified in a loss
 statistic. After this step comes the backward pass, where the
