@@ -1,6 +1,6 @@
 # Brighton, A Memorable City!
 
-## Breif
+## Brief
 The competition is a binary classification problem (label1 for memorable and label 0 for not memorable). You are provided with 24 7 labelled training data (209 memorable scenes and 38 not memorable scenes), and 11874 test data, which are not labelled. The task is to develop a binary-classclassifier that predicts the labels for the test data. Each data instance is represented by a 4608-dimensional feature vector. This vector is a concatenation of 4096-dimensional deep Convolutional Neural Networks (CNNs) features extracted from the fc 7 activation layer of CaffeNet 1and 512-dimensional GIST2 features (this representation is given therefore you do not have to perform any feature extraction on images!). The training data were collected in Brighton, while test data were collected in London. We therefore have a domain adaptation problem! And, of course (!), we also know that there are many more memorable sceneries in Brighton than in London.
 
 ## Approach
